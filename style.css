@@ -1,0 +1,107 @@
+/* General Body Styling */
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    backdrop-filter: blur(0.5px);
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Adjusting the radio button */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Focus effect for input fields */
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #e50914;
+    outline: none;
+}
+
+/* Styling Radio Buttons and Labels */
+input[type="radio"]+label {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+/* Styling the Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Adjusting the big text */
+big {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Submit Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #cc0000;
+}
